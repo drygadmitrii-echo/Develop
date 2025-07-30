@@ -16,7 +16,7 @@ def collector():
 def test_add_new_book(collector, name, expected):
     """Проверка добавления книги с разными названиями"""
     collector.add_new_book(name)
-    assert (name in collector.get_books_genre()) == expected1
+    assert (name in collector.get_books_genre()) == expected
 
 # 2. Тест для set_book_genre
 def test_set_book_genre(collector):
