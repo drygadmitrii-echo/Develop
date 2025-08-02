@@ -16,4 +16,4 @@
 ## Запуск тестов
 
 ```bash
-pytest -v tests.py
+pytest -v tests.py 
