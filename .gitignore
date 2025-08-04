@@ -1,0 +1,9 @@
+# Игнорировать папку .idea (настройки IDE)
+
+.idea/
+
+# Игнорировать кэш Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
