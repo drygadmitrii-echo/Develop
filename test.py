@@ -52,7 +52,7 @@ def test_get_books_for_children(collector):
 def test_add_book_in_favorites(collector):
     """Проверка добавления в избранное"""
     collector.add_new_book('Шерлок Холмс')
-    collector.add_book_in_favorites('Шерлок Холмс')
+    collector.add_book_in_favorites('Шерлок Холмス')
     assert 'Шерлок Холмс' in collector.get_list_of_favorites_books()
 
 def test_delete_book_from_favorites(collector):
