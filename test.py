@@ -1,4 +1,3 @@
-print("Начало файла")
 import pytest
 from main import BooksCollector
 
@@ -74,5 +73,4 @@ def test_add_two_books(collector):
     collector.add_new_book('Гордость и предубеждение')
     collector.add_new_book('Мастер и Маргарита')
     assert len(collector.get_books_genre()) == 2
-print("Конец файла")
-# Финал: 1754384347
+# Last update: 2025-08-05 12:04:08
