@@ -72,4 +72,4 @@ def test_add_two_books(collector):
     """Проверка добавления двух книг"""
     collector.add_new_book('Гордость и предубеждение')
     collector.add_new_book('Мастер и Маргарита')
-    assert len(collector.get_books_genre()) == 2
+    assert len(collector.get_books_genre()) == 2 
