@@ -1,3 +1,4 @@
+print("Начало файла")
 import pytest
 from main import BooksCollector
 
@@ -51,9 +52,9 @@ def test_get_books_for_children(collector):
 
 def test_add_book_in_favorites(collector):
     """Проверка добавления в избранное"""
-    collector.add_new_book('Шерлок Холмス')
-    collector.add_book_in_favorites('Шерлок Холмス')
-    assert 'Шерлок Холムス' in collector.get_list_of_favorites_books()
+    collector.add_new_book('Шерлок Холмс')
+    collector.add_book_in_favorites('Шерлок Холмс')
+    assert 'Шерлок Холмс' in collector.get_list_of_favorites_books()
 
 def test_delete_book_from_favorites(collector):
     """Проверка удаления из избранного"""
@@ -73,3 +74,5 @@ def test_add_two_books(collector):
     collector.add_new_book('Гордость и предубеждение')
     collector.add_new_book('Мастер и Маргарита')
     assert len(collector.get_books_genre()) == 2
+print("Конец файла")
+# Финал: 1754384347
