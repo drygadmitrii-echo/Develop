@@ -83,6 +83,3 @@ def test_add_two_books(collector):
     collector.add_new_book('Гордость и предубеждение')
     collector.add_new_book('Мастер и Маргарита')
     assert len(collector.get_books_genre()) == 2
-
-# This is a test comment - please remove
-
