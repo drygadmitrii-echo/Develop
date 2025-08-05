@@ -37,4 +37,4 @@
 
 ## Как запустить тесты
 ```bash
-pytest -v test.py
+pytest -v tests.py
